@@ -1,0 +1,9 @@
+def max_value(nums):
+  j=nums[0]
+  for i in nums:
+    if i>=j:
+      j=i
+  return j
+    
+    
+    
